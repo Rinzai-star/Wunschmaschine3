@@ -35,6 +35,7 @@ class Wunschmaschine:
         else:
             self.kausal_check = "❓ Du bist unsicher."
             self.blockaden += "\n- Woher stammt deine Unsicherheit? Welche Überzeugungen hast du darüber?"
+
     
     def energie_pruefung(self):
         antwort = st.radio("Energie-Ebene: Fühlst du dich bereits so, als wäre dein Wunsch erfüllt?", ("Ja", "Nein", "Ich weiß es nicht"))
